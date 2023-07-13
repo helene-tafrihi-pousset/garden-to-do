@@ -3,7 +3,6 @@ import { getUserDataFromLocalStorage } from './user';
 
 // Je créer une instance d'axios me permettant d'enregistrer
 // une configuration de base
-//baseURL: 'http://garden-todo-back-production.up.railway.app/',
 export const axiosInstance = axios.create({
   baseURL: 'http://localhost:3000/',
 });
