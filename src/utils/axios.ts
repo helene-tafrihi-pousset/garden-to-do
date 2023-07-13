@@ -5,7 +5,7 @@ import { getUserDataFromLocalStorage } from './user';
 // une configuration de base
 //baseURL: 'http://garden-todo-back-production.up.railway.app/',
 export const axiosInstance = axios.create({
-  baseURL: 'https://garden-todo-back-production.up.railway.app/',
+  baseURL: 'http://localhost:3000/',
 });
 
 // Je peux agir avant qu'une requête soit envoyé
